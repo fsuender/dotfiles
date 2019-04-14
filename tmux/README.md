@@ -1,0 +1,1 @@
+link to ~/.tmux.conf
