@@ -10,8 +10,12 @@ call vundle#begin('~/.config/nvim/bundle')
 Plugin 'VundleVim/Vundle.vim'
 " Plugins will be installed after running :PluginInstall
 " enter plugins here
-Plugin 'vim-syntastic/syntastic'
-Plugin 'ervandew/supertab'
+"Plugin 'vim-syntastic/syntastic'
+"Plugin 'ervandew/supertab'
+Plugin 'ncm2/ncm2'
+Plugin 'HansPinckaers/ncm2-jedi'
+Plugin 'ncm2/ncm2-bufword'
+Plugin 'ncm2/ncm2-path'
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-airline/vim-airline'
