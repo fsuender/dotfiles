@@ -1,5 +1,7 @@
 [global_config]
 [keybindings]
+  split_horiz = <Primary><Shift>quotedbl
+  split_vert = <Primary><Shift>percent
 [layouts]
   [[default]]
     [[[child0]]]
