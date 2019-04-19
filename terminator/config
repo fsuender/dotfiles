@@ -11,7 +11,7 @@
       parent = ""
       position = 0:37
       size = 956, 1041
-      title = fsuendermann@Frantergos: ~
+      title = fsuendermann@Frantergos: ~/dotfiles
       type = Window
     [[[terminal1]]]
       order = 0
@@ -23,3 +23,4 @@
 [profiles]
   [[default]]
     cursor_color = "#aaaaaa"
+    scrollbar_position = hidden
