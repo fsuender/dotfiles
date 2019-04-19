@@ -1,0 +1,25 @@
+[global_config]
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 3fb0bbd0-82b6-4fa9-b951-3d1fa9c7d772
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:37
+      size = 956, 1041
+      title = fsuendermann@Frantergos: ~
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = 3fb0bbd0-82b6-4fa9-b951-3d1fa9c7d772
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
