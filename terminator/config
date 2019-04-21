@@ -1,4 +1,7 @@
 [global_config]
+  focus = mouse
+  title_font = FontAwesome 12
+  title_use_system_font = False
 [keybindings]
   split_horiz = <Primary><Shift>quotedbl
   split_vert = <Primary><Shift>percent
@@ -25,4 +28,8 @@
 [profiles]
   [[default]]
     cursor_color = "#aaaaaa"
+    font = FontAwesome 10
+    icon_bell = False
     scrollbar_position = hidden
+    use_system_font = False
+    visible_bell = True

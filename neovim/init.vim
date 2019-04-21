@@ -42,17 +42,24 @@ set completeopt=menuone,noselect,noinsert
 set shortmess+=c
 inoremap <c-c> <ESC>
 
+inoremap <expr> <CR> (pumvisible() ? "\<c-y>\<cr>" : "\<CR>")
+
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+
+
 let ncm2#popup_delay = 5
 let ncm2#complete_length = [[1, 1]]
 " fuzzy based matches
-"let g:ncm2#matcher = 'substrfuzzy'
+let g:ncm2#matcher = 'substrfuzzy'
 
 " Disable Jedi-vim autocompletion and enable call-signatures options
 let g:jedi#auto_initialization = 1
 let g:jedi#completions_enabled = 0
 let g:jedi#auto_vim_configuration = 0
 let g:jedi#smart_auto_mappings = 0
-let g:jedi#popup_on_dot = 0
+let g:jedi#popup_on_dot = 0 
 let g:jedi#completions_command = ""
 let g:jedi#show_call_signatures = "1"
 
