@@ -52,7 +52,7 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 let ncm2#popup_delay = 5
 let ncm2#complete_length = [[1, 1]]
 " fuzzy based matches
-let g:ncm2#matcher = 'substrfuzzy'
+"let g:ncm2#matcher = 'substrfuzzy'
 
 " Disable Jedi-vim autocompletion and enable call-signatures options
 let g:jedi#auto_initialization = 1
