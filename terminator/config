@@ -1,10 +1,11 @@
 [global_config]
+  always_split_with_profile = True
   focus = mouse
   title_font = FontAwesome 12
   title_use_system_font = False
 [keybindings]
-  split_horiz = <Primary><Shift>quotedbl
-  split_vert = <Primary><Shift>percent
+  split_horiz = <Shift><Alt>s
+  split_vert = <Shift><Alt>v
 [layouts]
   [[default]]
     [[[child0]]]
@@ -27,9 +28,13 @@
 [plugins]
 [profiles]
   [[default]]
+    background_color = "#002b36"
+    background_type = transparent
     cursor_color = "#aaaaaa"
-    font = FontAwesome 10
+    font = Hack 10
+    foreground_color = "#839496"
     icon_bell = False
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
     scrollbar_position = hidden
     use_system_font = False
     visible_bell = True
