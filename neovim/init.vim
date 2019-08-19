@@ -40,7 +40,6 @@ nnoremap <C-UP> <C-W><C-K>
 nnoremap <C-RIGHT> <C-W><C-L>
 nnoremap <C-LEFT> <C-W><C-H>
 
-
 "ncm2 setup
 autocmd BufEnter * call ncm2#enable_for_buffer()
 set completeopt=menuone,noselect,noinsert
