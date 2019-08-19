@@ -116,6 +116,10 @@ setopt extendedglob notify
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+# 
+# gopass autocompletion
+#source < (gopass completion zsh)
+#
 alias vim="nvim"
 alias vi="nvim"
 alias oldvim="/usr/bin/vim"
