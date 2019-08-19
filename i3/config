@@ -31,7 +31,7 @@ floating_modifier $mod
 
 # start a terminal
 #bindsym $mod+Return exec urxvt 
-bindsym $mod+Return exec termite
+bindsym $mod+Return exec terminator
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -137,6 +137,10 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
+###
+# Fred defined screen locker
+bindsym $mod+Control+l exec sflock -h -c `cat /dev/random | base64 | head -c 100`
+
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -177,7 +181,7 @@ bindsym Shift+$mod+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
 #bindsym Shift+$mod+v exec urxvt -title vifm -e vifm
-bindsym Shift+$mod+v exec termite -title vifm -e vifm
+bindsym Shift+$mod+v exec terminator -title vifm -e vifm
 
 exec_always synclient TouchpadOff=1
 exec_always nm-applet
