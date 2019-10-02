@@ -25,6 +25,9 @@ call vundle#end()
 filetype plugin indent on
 " let g:SuperTabDefaultCompletionType = "context"
 
+let g:python_host_prog = '/usr/bin/python'
+let g:python3_host_prog = '/usr/bin/python3'
+
 let python_highlight_all=1
 syntax on
 
