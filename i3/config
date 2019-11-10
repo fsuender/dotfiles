@@ -185,3 +185,4 @@ bindsym Shift+$mod+v exec terminator -title vifm -e vifm
 
 exec_always synclient TouchpadOff=1
 exec_always nm-applet
+exec_always pa-applet
