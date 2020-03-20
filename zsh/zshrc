@@ -123,4 +123,5 @@ setopt extendedglob notify
 alias vim="nvim"
 alias vi="nvim"
 alias oldvim="/usr/bin/vim"
+alias set_brightness="${HOME}/set_brightness"
 export EDITOR=nvim

@@ -54,6 +54,14 @@ inoremap <c-c> <ESC>
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+"set textwidth=79
+set expandtab
+set autoindent
+set fileformat=unix
+
 
 
 let ncm2#popup_delay = 5

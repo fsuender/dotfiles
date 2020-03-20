@@ -139,7 +139,8 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 ###
 # Fred defined screen locker
-bindsym $mod+Control+l exec sflock -h -c `cat /dev/random | base64 | head -c 100`
+#bindsym $mod+Control+l exec sflock -h -c `cat /dev/random | base64 | head -c 100`
+bindsym $mod+Control+l exec i3lock -c 000000
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
